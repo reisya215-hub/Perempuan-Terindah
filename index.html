@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jihan - Sempurna</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Background Bunga Lily -->
+    <div class="lily-bg"></div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-lily"></i> Jihan
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#message">Pesan</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <span class="badge">✨ Untuk Jihan</span>
+                    <h1>Seorang Perempuan <br><span class="highlight">Sempurna</span></h1>
+                    <p>Kecantikan yang terpancar dari hati, kebaikan yang tulus, dan keanggunan yang alami. Jihan adalah definisi dari kesempurnaan yang sederhana.</p>
+                    <a href="#about" class="btn-primary">Kenali Lebih Dekat <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="home-image">
+                    <div class="flower-frame">
+                        <i class="fas fa-lily"></i>
+                        <i class="fas fa-lily"></i>
+                        <i class="fas fa-lily"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang <span>Jihan</span></h2>
+            <p class="section-subtitle">Sosok perempuan yang membawa kedamaian di setiap langkahnya</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Hati yang Lembut</h3>
+                    <p>Jihan memiliki hati yang penuh dengan kasih sayang dan empati terhadap semua orang di sekitarnya.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Kepribadian Menawan</h3>
+                    <p>Dengan senyumnya yang hangat, Jihan mampu membuat siapapun merasa nyaman dan dihargai.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-crown"></i>
+                    <h3>Keanggunan Alami</h3>
+                    <p>Setiap gerak-gerik Jihan mencerminkan keanggunan yang tidak dibuat-buat dan sangat natural.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Kecerdasan yang Bijak</h3>
+                    <p>Kecerdasan Jihan tidak hanya di otak, tetapi juga dalam cara dia menyikapi setiap situasi dengan bijaksana.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Galeri <span>Momen</span></h2>
+            <p class="section-subtitle">Setiap momen bersama Jihan adalah kenangan indah</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-icon"><i class="fas fa-lily"></i></div>
+                    <p>Kebahagiaan</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-icon"><i class="fas fa-lily"></i></div>
+                    <p>Ketulusan</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-icon"><i class="fas fa-lily"></i></div>
+                    <p>Keindahan</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-icon"><i class="fas fa-lily"></i></div>
+                    <p>Kedamaian</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-icon"><i class="fas fa-lily"></i></div>
+                    <p>Cinta</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-icon"><i class="fas fa-lily"></i></div>
+                    <p>Kesempurnaan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Section -->
+    <section id="message" class="message">
+        <div class="container">
+            <h2 class="section-title">Kirim <span>Pesan</span></h2>
+            <p class="section-subtitle">Tuliskan sesuatu untuk Jihan</p>
+            <div class="message-box">
+                <form id="messageForm">
+                    <input type="text" placeholder="Nama Anda" required>
+                    <textarea placeholder="Tulis pesan untuk Jihan..." rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-paper-plane"></i> Kirim Pesan
+                    </button>
+                </form>
+                <div id="messageResponse" class="message-response"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-lily"></i> Jihan
+                </div>
+                <p>Dibuat dengan penuh cinta untuk Jihan 🌸</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 🎵 Music Player - Aku Milikmu by Dewa 19 -->
+    <div class="music-player" id="musicPlayer">
+        <div class="music-btn" id="musicBtn">
+            <i class="fas fa-music"></i>
+        </div>
+        <div class="music-controls">
+            <button id="playBtn" class="play-btn">
+                <i class="fas fa-play"></i>
+            </button>
+            <span class="music-title" id="musicTitle">🎵 Aku Milikmu - Dewa 19</span>
+            <button id="volumeBtn" class="volume-btn">
+                <i class="fas fa-volume-up"></i>
+            </button>
+        </div>
+        <!-- YouTube Embed (disembunyikan, hanya audio) -->
+        <div id="youtubeContainer" style="display: none;">
+            <iframe id="youtubePlayer" 
+                width="0" 
+                height="0" 
+                src="https://www.youtube.com/embed/OEjl0eHY1w8?autoplay=0&loop=1&playlist=OEjl0eHY1w8&controls=0&showinfo=0&rel=0&iv_load_policy=3" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
